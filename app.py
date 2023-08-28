@@ -34,7 +34,7 @@ TASK_NAMES = [
     "ASR (Automatic Speech Recognition)",
 ]
 AUDIO_SAMPLE_RATE = 16000.0
-MAX_INPUT_AUDIO_LENGTH = 60  # in seconds
+MAX_INPUT_AUDIO_LENGTH = 10800  # in seconds
 DEFAULT_TARGET_LANGUAGE = "French"
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
